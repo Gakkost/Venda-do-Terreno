@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento das Parcelas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="Link-do-drive">Google Drive</a>
+            <a href="contrato.html">Contrato</a>
+            <a href="sobre.html">Sobre</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Controle de Pagamentos</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Número da Parcela</th>
+                    <th>Data de Vencimento</th>
+                    <th>Situação</th>
+                    <th>Comprovante</th>
+                </tr>
+            </thead>
+            <tbody id="parcelTable">
+                <!-- As linhas serão inseridas aqui pelo JavaScript -->
+            </tbody>
+        </table>
+
+        <h2>Resumo de Pagamentos</h2>
+        <table id="resumoTable">
+            <tbody>
+                <tr>
+                    <td>Valor Total Pago:</td>
+                    <td id="valorPago">R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td>Valor Total do Terreno:</td>
+                    <td>R$ 30.000,00</td>
+                </tr>
+                <tr>
+                    <td>Valor de Devolução em Caso de Desistência:</td>
+                    <td id="valorDevolucao">R$ 0,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
