@@ -33,7 +33,7 @@ function loadParcelas() {
         if (parcela.comprovante) {
             const link = document.createElement('a');
             link.href = parcela.comprovante;
-            link.textContent = 'Ver Comprovante';
+            link.textContent = 'Comprovante';
             link.className = 'button-link';
             link.target = '_blank';
             comprovanteCell.appendChild(link);
