@@ -19,7 +19,7 @@ const parcelas = [
     { numero: 18, vencimento: '10-09-2024', situacao: 'Pago', comprovante: 'comprovantes/comprovante18.pdf' },
     { numero: 19, vencimento: '10-10-2024', situacao: 'Pago', comprovante: 'comprovantes/comprovante19.pdf' },
     { numero: 20, vencimento: '10-11-2024', situacao: 'Pago', comprovante: 'comprovantes/comprovante20.pdf' },
-    { numero: 21, vencimento: '10-12-2024', situacao: 'Não Pago', comprovante: null },
+    { numero: 21, vencimento: '10-12-2024', situacao: 'Pago', comprovante: 'comprovantes/comprovante21.pdf'  },
     { numero: 22, vencimento: '10-01-2025', situacao: 'Não Pago', comprovante: null },
     { numero: 23, vencimento: '10-02-2025', situacao: 'Não Pago', comprovante: null },
     { numero: 24, vencimento: '10-03-2025', situacao: 'Não Pago', comprovante: null },
